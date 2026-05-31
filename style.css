@@ -291,9 +291,9 @@ ul { list-style: none; }
 }
 
 .hero__sub {
-  font-size: 20px;
+  font-size: 22px;
   color: rgba(255,255,255,0.6);
-  max-width: 560px;
+  max-width: 580px;
   line-height: 1.7;
   margin-bottom: 40px;
 }
@@ -314,14 +314,14 @@ ul { list-style: none; }
 
 .hero__stat-num {
   display: block;
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 800;
   color: var(--white);
   letter-spacing: -1px;
 }
 .hero__stat-label {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   color: rgba(255,255,255,0.45);
   font-weight: 400;
 }
