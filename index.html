@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DECIDE — Бизнес-аналитика для точных решений</title>
+  <meta name="description" content="Маркетинговые исследования, анализ рынка и конкурентов. Помогаем бизнесу принимать решения на данных, а не интуиции." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">DECIDE</a>
+      <nav class="nav__links">
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#process">Как работаем</a>
+        <a href="#cases">Кейсы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <a href="#contact" class="btn btn--primary nav__cta">Оставить заявку</a>
+      <button class="nav__burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobile-menu">
+      <a href="#about" class="nav__mobile-link">О нас</a>
+      <a href="#services" class="nav__mobile-link">Услуги</a>
+      <a href="#process" class="nav__mobile-link">Как работаем</a>
+      <a href="#cases" class="nav__mobile-link">Кейсы</a>
+      <a href="#contact" class="nav__mobile-link">Контакты</a>
+      <a href="#contact" class="btn btn--primary" style="margin-top:8px">Оставить заявку</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <div class="hero__badge">Аналитическое агентство</div>
+      <h1 class="hero__title">Быстрая аналитика<br>для точных решений</h1>
+      <p class="hero__sub">Проверим вашу бизнес-идею со всех сторон — рынок, конкуренты, экономика, стратегия. От вас — идея. От нас — проработка.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--accent btn--lg">Заказать исследование</a>
+        <a href="#cases" class="btn btn--ghost btn--lg">Смотреть кейсы</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-num">5</span>
+          <span class="hero__stat-label">лет на рынке</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">600+</span>
+          <span class="hero__stat-label">исследований</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-num">40+</span>
+          <span class="hero__stat-label">ниш проанализировано</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <svg width="20" height="28" viewBox="0 0 20 28" fill="none"><rect x="1" y="1" width="18" height="26" rx="9" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/><rect x="9" y="6" width="2" height="6" rx="1" fill="rgba(255,255,255,0.7)"/></svg>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text">
+          <div class="section-tag">О компании</div>
+          <h2 class="section-title">Помогаем находить<br>правильные пути в бизнесе</h2>
+          <p class="about__desc">80% бизнесов закрываются в течение первых 2 лет — чаще всего из-за неверно выбранной ниши и незнания конкурентов. Более 5 лет мы помогаем компаниям, предпринимателям и инвесторам принимать взвешенные решения о запуске и масштабировании бизнеса.</p>
+          <p class="about__desc">Мы проверяем гипотезы, исследуем рынки и конкурентов, рассчитываем юнит-экономику и помогаем бизнесу расти. Если вы стоите на старте нового проекта — важно принять решение не на интуиции, а на проверенных данных.</p>
+          <a href="#contact" class="btn btn--primary" style="margin-top:32px">Обсудить проект</a>
+        </div>
+        <div class="about__features">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <h4>Без брифов</h4>
+              <p>Выявляем потребности и формулируем ТЗ на Zoom-звонке — без долгих анкет</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <h4>Готовые решения</h4>
+              <p>Мы не просто даём цифры — мы даём конкретные рекомендации для действий</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <h4>Быстрые сроки</h4>
+              <p>От 10 рабочих дней. Понимаем, насколько важна скорость в бизнесе</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <h4>Сопровождение</h4>
+              <p>Отвечаем на вопросы в течение месяца после сдачи аналитики</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section section--gray" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Что мы делаем</div>
+        <h2 class="section-title">Услуги</h2>
+        <p class="section-sub">Формат и бюджет обсуждаются индивидуально — мы адаптируем исследование под задачу, бизнес-модель и масштаб</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="service-card__price">от 30 000 ₽</div>
+          <h3>Маркетинговый анализ</h3>
+          <ul class="service-card__list">
+            <li>Описание целевой аудитории</li>
+            <li>Анализ маркетинговой представленности</li>
+            <li>Позиционирование и УТП</li>
+            <li>Рекомендации по продвижению</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Заказать</a>
+        </div>
+
+        <div class="service-card service-card--featured">
+          <div class="service-card__badge">Популярное</div>
+          <div class="service-card__icon">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="service-card__price">от 20 000 ₽</div>
+          <h3>Анализ рынка</h3>
+          <ul class="service-card__list">
+            <li>Оценка объёма рынка (TAM, SAM, SOM)</li>
+            <li>Темпы роста и тренды</li>
+            <li>Ключевые драйверы роста</li>
+            <li>Факторы падения рынка</li>
+          </ul>
+          <a href="#contact" class="btn btn--accent">Заказать</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="service-card__price">от 40 000 ₽</div>
+          <h3>Конкурентный анализ</h3>
+          <ul class="service-card__list">
+            <li>Финансовый блок</li>
+            <li>Маркетинговый блок</li>
+            <li>Анализ продукта</li>
+            <li>Аудит отдела продаж</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Заказать</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="service-card__price">от 40 000 ₽</div>
+          <h3>CustDev</h3>
+          <ul class="service-card__list">
+            <li>Проведение глубинных интервью</li>
+            <li>Выявление потребностей клиентов</li>
+            <li>Проверка продуктовых гипотез</li>
+            <li>Jobs To Be Done анализ</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Заказать</a>
+        </div>
+
+        <div class="service-card service-card--wide">
+          <div class="service-card__icon">
+            <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="service-card__price">от 40 000 ₽</div>
+          <h3>Продвижение</h3>
+          <p class="service-card__desc">Внедряем выводы из аналитики в область внешних коммуникаций. Полный цикл: от стратегии до реализации.</p>
+          <ul class="service-card__list service-card__list--inline">
+            <li>Коммуникационная стратегия</li>
+            <li>SMM</li>
+            <li>Контент-маркетинг</li>
+            <li>PR и управление репутацией</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Заказать</a>
+        </div>
+
+      </div>
+      <p class="services__note">Не нашли нужную услугу? <a href="#contact">Свяжитесь с нами</a> — подготовим индивидуальное предложение.</p>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Как мы работаем</div>
+        <h2 class="section-title">Этапы работ</h2>
+        <p class="section-sub">Прозрачный процесс от заявки до внедрения результатов</p>
+      </div>
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__step-num">01</div>
+          <div class="process__step-content">
+            <h3>Вы оставляете заявку</h3>
+            <p>На этом этапе достаточно бизнес-идеи, которую хотите проверить — никаких подготовительных материалов не нужно</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__step-num">02</div>
+          <div class="process__step-content">
+            <h3>Уточняем задачи</h3>
+            <p>На бесплатном Zoom-звонке уточняем запрос и формируем исследовательский фреймворк под вашу задачу</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__step-num">03</div>
+          <div class="process__step-content">
+            <h3>Проводим исследование</h3>
+            <p>Берём в анализ только самые важные для принятия решения блоки. Никакой воды — только ценность</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__step-num">04</div>
+          <div class="process__step-content">
+            <h3>Презентуем отчёт</h3>
+            <p>Предоставляем презентацию с итогами исследования и конкретными рекомендациями к действию</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__step-num">05</div>
+          <div class="process__step-content">
+            <h3>Поддерживаем внедрение</h3>
+            <p>Отвечаем на любые вопросы в течение месяца после сдачи аналитики</p>
+          </div>
+        </div>
+        <div class="process__step">
+          <div class="process__step-num">06</div>
+          <div class="process__step-content">
+            <h3>Готовы к новым задачам</h3>
+            <p>Оказываем комплексную помощь на следующих этапах развития вашего бизнеса по мере роста</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section class="cases section section--gray" id="cases">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Портфолио</div>
+        <h2 class="section-title">Кейсы</h2>
+        <p class="section-sub">Реальные задачи, измеримые результаты</p>
+      </div>
+      <div class="cases__grid">
+
+        <div class="case-card">
+          <div class="case-card__tag">Транспорт / Экспансия</div>
+          <h3>Каршеринг и кикшеринг</h3>
+          <p class="case-card__goal"><strong>Цель:</strong> Оценить перспективность выхода на мировой рынок</p>
+          <ul class="case-card__list">
+            <li>Анализ спроса и интереса целевых рынков</li>
+            <li>Изучение ключевых игроков и их позиций</li>
+            <li>Правовые барьеры: лицензии, ограничения</li>
+            <li>Финансовый расчёт: затраты, доходы, ROI</li>
+            <li>SWOT-анализ: риски и возможности</li>
+          </ul>
+          <div class="case-card__footer">
+            <a href="#contact" class="case-card__link">Обсудить похожий проект →</a>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div class="case-card__tag">Fashion / Запуск бренда</div>
+          <h3>Детская одежда</h3>
+          <p class="case-card__goal"><strong>Цель:</strong> Разработать концепцию бренда и продуктовую линейку</p>
+          <ul class="case-card__list">
+            <li>Анализ ЦА: потребности, мотивации, поведение</li>
+            <li>Тренды рынка в дизайне и продуктах</li>
+            <li>Оценка конкурентов и их ассортимента</li>
+            <li>Фокус-группы на идеи и прототипы</li>
+            <li>УТП и позиционирование бренда</li>
+          </ul>
+          <div class="case-card__footer">
+            <a href="#contact" class="case-card__link">Обсудить похожий проект →</a>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div class="case-card__tag">Недвижимость / Оценка рынка</div>
+          <h3>Бьюти-коворкинг</h3>
+          <p class="case-card__goal"><strong>Цель:</strong> Оценить перспективность открытия коворкинга в Москве</p>
+          <ul class="case-card__list">
+            <li>Анализ спроса среди целевых групп</li>
+            <li>Оценка локаций, цен и заполняемости</li>
+            <li>Локационный анализ: трафик, транспорт</li>
+            <li>Сравнение рыночных ставок и монетизации</li>
+            <li>Тренды гибких офисов и удалённой работы</li>
+          </ul>
+          <div class="case-card__footer">
+            <a href="#contact" class="case-card__link">Обсудить похожий проект →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-banner__inner">
+      <div>
+        <h2>Готовы начать?</h2>
+        <p>Проведём бесплатную консультацию и поможем определить, нужна ли вам аналитика. Уже через несколько дней у вас будут не гипотезы, а решения, на которых можно строить бизнес.</p>
+      </div>
+      <a href="#contact" class="btn btn--accent btn--lg">Записаться на Zoom</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="section-tag">Контакты</div>
+          <h2 class="section-title">Оставьте заявку</h2>
+          <p>Расскажите о своей задаче — мы ответим в течение рабочего дня и предложим оптимальный формат сотрудничества.</p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <div class="contact__detail-icon">
+                <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <span class="contact__detail-label">Телефон</span>
+                <a href="tel:+79257740350" class="contact__detail-value">+7 925 774-03-50</a>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon">
+                <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <span class="contact__detail-label">Email</span>
+                <a href="mailto:info@decideagency.ru" class="contact__detail-value">info@decideagency.ru</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form" id="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Алексей Иванов" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон или Email</label>
+            <input type="text" id="phone" name="phone" placeholder="+7 900 000-00-00" required />
+          </div>
+          <div class="form-group">
+            <label for="company">Компания / проект</label>
+            <input type="text" id="company" name="company" placeholder="Название компании" />
+          </div>
+          <div class="form-group">
+            <label for="task">Опишите задачу</label>
+            <textarea id="task" name="task" rows="4" placeholder="Что хотите исследовать? Какая ситуация?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--accent btn--full">Отправить заявку</button>
+          <p class="form-note">Оставляя заявку, вы соглашаетесь на <a href="#">обработку персональных данных</a></p>
+          <div id="form-success" class="form-success" style="display:none">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Заявка отправлена! Мы свяжемся с вами в ближайшее время.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">DECIDE</a>
+          <p>Аналитическое агентство.<br>Решения на данных, а не интуиции.</p>
+        </div>
+        <div class="footer__nav">
+          <div class="footer__col">
+            <h5>Навигация</h5>
+            <a href="#about">О компании</a>
+            <a href="#services">Услуги</a>
+            <a href="#cases">Кейсы</a>
+            <a href="#contact">Контакты</a>
+          </div>
+          <div class="footer__col">
+            <h5>Услуги</h5>
+            <a href="#services">Маркетинговый анализ</a>
+            <a href="#services">Анализ рынка</a>
+            <a href="#services">Конкурентный анализ</a>
+            <a href="#services">CustDev</a>
+          </div>
+          <div class="footer__col">
+            <h5>Контакты</h5>
+            <a href="tel:+79257740350">+7 925 774-03-50</a>
+            <a href="mailto:info@decideagency.ru">info@decideagency.ru</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2020–2025 DECIDE. Все права защищены.</p>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
