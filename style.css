@@ -288,6 +288,7 @@ ul { list-style: none; }
   letter-spacing: -2px;
   color: var(--white);
   margin-bottom: 24px;
+  max-width: 640px;
 }
 
 .hero__sub {
