@@ -533,14 +533,6 @@ ul { list-style: none; }
   gap: 24px;
 }
 
-.service-card--wide {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: auto auto 1fr auto;
-  align-items: center;
-  gap: 24px;
-}
-
 .service-card {
   position: relative;
   background: var(--white);
@@ -1061,11 +1053,6 @@ ul { list-style: none; }
   .services__grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .service-card--wide {
-    grid-column: 1 / -1;
-    grid-template-columns: auto 1fr auto;
-  }
-  .service-card--wide .service-card__desc { display: none; }
   .process__steps { grid-template-columns: repeat(2, 1fr); }
 }
 
@@ -1087,12 +1074,6 @@ ul { list-style: none; }
   .services__grid {
     grid-template-columns: 1fr;
   }
-  .service-card--wide {
-    grid-column: 1;
-    grid-template-columns: 1fr;
-  }
-  .service-card--wide .service-card__desc { display: block; }
-  .service-card--wide .service-card__list--inline { display: flex; }
 
   .process__steps { grid-template-columns: 1fr; gap: 24px; }
 
